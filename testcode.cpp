@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-std::vector resultado (float media){
+string resultado (float media){
     if (media < 40)
         return "REPROVADO\n";
     else if ((media >=40)&&(media <60))
